@@ -18,7 +18,7 @@ const login = async () => {
     alert('ユーザー名とパスワードを入力してください');
   } else {
     try {
-      const res = await fetch('http://127.0.0.1:8000/api/token', {
+      const res = await fetch('http://127.0.0.1:8000/api/token/', {
         method: 'POST',
         credentials: 'include',
         headers: {
