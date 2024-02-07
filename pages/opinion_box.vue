@@ -9,7 +9,7 @@ const username = localStorage.getItem("username");
 //username '00'を一旦教師用アカウントとして使う
 onMounted(async () => {
     try {
-        const response = await fetch("https://ktc-chat.azurewebsites.net/opinion/", {
+        const response = await fetch("http://127.0.0.1:8000/opinion/", {
             method: "GET",
             headers: {
                 "Authorization": `Bearer ${token}`,

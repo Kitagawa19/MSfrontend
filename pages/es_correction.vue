@@ -18,7 +18,7 @@ const send = async (text: string) => {
     try {
       showStatus.value = "loading";
       //ここら辺にChatGptのやつ書いて、
-      const res = await fetch("https://ktc-chat.azurewebsites.net/chat_app/",{
+      const res = await fetch("http://127.0.0.1:8000/chat_app/",{
         method: "POST",
         headers: {
           "Authorization": `Bearer ${token}`,

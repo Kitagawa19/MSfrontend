@@ -10,7 +10,7 @@ const send = async () => {
         alert('意見を入力してください');
     }else{
         try{
-            const res = await fetch("https://ktc-chat.azurewebsites.net/opinion/",{
+            const res = await fetch("http://127.0.0.1:8000/opinion/",{
                 method: "POST",
                 headers:{
                     "Authorization": `Bearer ${token}`,
