@@ -12,6 +12,7 @@
   "dependencies": {
     "nuxt": "^3.10.1",
     "usebootstrap": "^0.2.14",
+    "usebootstrap-docs": "^0.0.29",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"
   }
