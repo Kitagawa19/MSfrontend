@@ -1,0 +1,29 @@
+.basicButton {
+  background-color: #1bab71;
+}
+.basicButon:hover {
+  background-color: #198754;
+}
+
+.basicShadow {
+  box-shadow: 0px 0px 10px 5px #25d58f;
+}
+
+.lightShadow {
+  box-shadow: 0px 0px 5px 1px #25d58f;
+}
+
+.fade-move,
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-leave-active {
+  position: absolute;
+}
