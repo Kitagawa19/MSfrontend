@@ -94,7 +94,7 @@ const sendButtonDisabled = ref(false);
             class="user-text-border"
           >
             <BH6 class="text-right"
-              >あんた:<BIcon margin="s-1" icon="bi:person-circle"
+              >あなた:<BIcon margin="s-1" icon="bi:person-circle"
             /></BH6>
             <BH5 margin="t-2" class="userChat">{{ data.text }}</BH5>
           </Col>
